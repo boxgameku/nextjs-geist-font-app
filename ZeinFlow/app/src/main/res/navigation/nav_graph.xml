@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_dashboard">
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.zeinflow.cashflow.ui.dashboard.DashboardFragment"
+        android:label="@string/nav_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_transactions"
+        android:name="com.zeinflow.cashflow.ui.transaction.TransactionListFragment"
+        android:label="@string/nav_transactions"
+        tools:layout="@layout/fragment_transaction_list" />
+
+    <fragment
+        android:id="@+id/navigation_categories"
+        android:name="com.zeinflow.cashflow.ui.category.CategoryListFragment"
+        android:label="@string/nav_categories"
+        tools:layout="@layout/fragment_category_list" />
+
+    <fragment
+        android:id="@+id/navigation_reports"
+        android:name="com.zeinflow.cashflow.ui.report.ReportFragment"
+        android:label="@string/nav_reports"
+        tools:layout="@layout/fragment_report" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.zeinflow.cashflow.ui.settings.SettingsFragment"
+        android:label="@string/nav_settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>

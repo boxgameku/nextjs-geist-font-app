@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">ZeinFlow</string>
+    
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_transactions">Transaksi</string>
+    <string name="nav_categories">Kategori</string>
+    <string name="nav_reports">Laporan</string>
+    <string name="nav_settings">Pengaturan</string>
+    
+    <!-- Dashboard -->
+    <string name="total_balance">Total Saldo</string>
+    <string name="total_income">Total Pendapatan</string>
+    <string name="total_expense">Total Pengeluaran</string>
+    <string name="this_month">Bulan Ini</string>
+    <string name="recent_transactions">Transaksi Terbaru</string>
+    <string name="add_transaction">Tambah Transaksi</string>
+    
+    <!-- Transaction -->
+    <string name="transaction_type">Jenis Transaksi</string>
+    <string name="income">Pendapatan</string>
+    <string name="expense">Pengeluaran</string>
+    <string name="amount">Jumlah</string>
+    <string name="description">Deskripsi</string>
+    <string name="category">Kategori</string>
+    <string name="date">Tanggal</string>
+    <string name="save">Simpan</string>
+    <string name="cancel">Batal</string>
+    <string name="delete">Hapus</string>
+    <string name="edit">Edit</string>
+    
+    <!-- Categories -->
+    <string name="add_category">Tambah Kategori</string>
+    <string name="category_name">Nama Kategori</string>
+    <string name="category_color">Warna Kategori</string>
+    <string name="category_icon">Ikon Kategori</string>
+    <string name="manage_categories">Kelola Kategori</string>
+    
+    <!-- Reports -->
+    <string name="financial_report">Laporan Keuangan</string>
+    <string name="period">Periode</string>
+    <string name="daily">Harian</string>
+    <string name="weekly">Mingguan</string>
+    <string name="monthly">Bulanan</string>
+    <string name="yearly">Tahunan</string>
+    <string name="custom">Kustom</string>
+    <string name="start_date">Tanggal Mulai</string>
+    <string name="end_date">Tanggal Akhir</string>
+    <string name="generate_report">Buat Laporan</string>
+    <string name="export_to_drive">Ekspor ke Drive</string>
+    
+    <!-- Google Drive -->
+    <string name="sign_in_google">Masuk dengan Google</string>
+    <string name="sign_out">Keluar</string>
+    <string name="add">Tambah</string>
+    <string name="add_category">Tambah Kategori</string>
+    <string name="add_transaction">Tambah Transaksi</string>
+    <string name="sync_to_drive">Sinkronisasi ke Drive</string>
+    <string name="sync_from_drive">Sinkronisasi dari Drive</string>
+    <string name="backup_data">Backup Data</string>
+    <string name="restore_data">Pulihkan Data</string>
+    
+    <!-- Messages -->
+    <string name="transaction_saved">Transaksi berhasil disimpan</string>
+    <string name="transaction_deleted">Transaksi berhasil dihapus</string>
+    <string name="category_saved">Kategori berhasil disimpan</string>
+    <string name="category_deleted">Kategori berhasil dihapus</string>
+    <string name="sync_successful">Sinkronisasi berhasil</string>
+    <string name="sync_failed">Sinkronisasi gagal</string>
+    <string name="please_sign_in">Silakan masuk terlebih dahulu</string>
+    <string name="no_data">Tidak ada data</string>
+    
+    <!-- Default Categories -->
+    <string name="category_food">Makanan</string>
+    <string name="category_transport">Transport</string>
+    <string name="category_shopping">Belanja</string>
+    <string name="category_entertainment">Hiburan</string>
+    <string name="category_health">Kesehatan</string>
+    <string name="category_education">Pendidikan</string>
+    <string name="category_bills">Tagihan</string>
+    <string name="category_salary">Gaji</string>
+    <string name="category_bonus">Bonus</string>
+    <string name="category_investment">Investasi</string>
+    
+    <!-- Currency -->
+    <string name="currency_format">Rp %,.0f</string>
+    
+    <!-- Date Format -->
+    <string name="date_format">dd/MM/yyyy</string>
+    <string name="month_format">MMMM yyyy</string>
+</resources>

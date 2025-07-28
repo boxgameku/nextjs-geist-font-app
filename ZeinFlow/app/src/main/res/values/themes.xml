@@ -1,0 +1,126 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ZeinFlow" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/background_primary</item>
+        <item name="colorSurface">@color/background_card</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        
+        <!-- Card style -->
+        <item name="cardBackgroundColor">@color/background_card</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardCornerRadius">8dp</item>
+        
+        <!-- Button styles -->
+        <item name="materialButtonStyle">@style/Widget.ZeinFlow.Button</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.ZeinFlow.Button.Outlined</item>
+        <item name="materialButtonTextButtonStyle">@style/Widget.ZeinFlow.Button.Text</item>
+        
+        <!-- Text input styles -->
+        <item name="textInputStyle">@style/Widget.ZeinFlow.TextInputLayout</item>
+        
+        <!-- Bottom navigation -->
+        <item name="bottomNavigationStyle">@style/Widget.ZeinFlow.BottomNavigation</item>
+        
+        <!-- Toolbar -->
+        <item name="toolbarStyle">@style/Widget.ZeinFlow.Toolbar</item>
+    </style>
+    
+    <!-- Button Styles -->
+    <style name="Widget.ZeinFlow.Button" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+    
+    <style name="Widget.ZeinFlow.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/primary</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    
+    <style name="Widget.ZeinFlow.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">@color/primary</item>
+    </style>
+    
+    <!-- Text Input Layout -->
+    <style name="Widget.ZeinFlow.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="hintTextColor">@color/primary</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+    </style>
+    
+    <!-- Bottom Navigation -->
+    <style name="Widget.ZeinFlow.BottomNavigation" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemIconTint">@color/bottom_nav_item_color</item>
+        <item name="itemTextColor">@color/bottom_nav_item_color</item>
+        <item name="itemRippleColor">@color/primary_light</item>
+    </style>
+    
+    <!-- Toolbar -->
+    <style name="Widget.ZeinFlow.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="titleTextColor">@color/white</item>
+        <item name="subtitleTextColor">@color/white</item>
+        <item name="android:background">@color/primary</item>
+    </style>
+    
+    <!-- Card Styles -->
+    <style name="Widget.ZeinFlow.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardBackgroundColor">@color/background_card</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+    
+    <!-- Income Card -->
+    <style name="Widget.ZeinFlow.Card.Income" parent="Widget.ZeinFlow.Card">
+        <item name="cardBackgroundColor">@color/income_green</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <!-- Expense Card -->
+    <style name="Widget.ZeinFlow.Card.Expense" parent="Widget.ZeinFlow.Card">
+        <item name="cardBackgroundColor">@color/expense_red</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <!-- Balance Card -->
+    <style name="Widget.ZeinFlow.Card.Balance" parent="Widget.ZeinFlow.Card">
+        <item name="cardBackgroundColor">@color/balance_blue</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <!-- Bottom Navigation Item Color Selector -->
+    <color name="bottom_nav_item_selected">@color/primary</color>
+    <color name="bottom_nav_item_unselected">@color/gray_500</color>
+    
+    <selector name="bottom_nav_item_color" xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:color="@color/bottom_nav_item_selected" android:state_checked="true" />
+        <item android:color="@color/bottom_nav_item_unselected" />
+    </selector>
+</resources>

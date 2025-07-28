@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#2E7D32</color>
+    <color name="primary_variant">#1B5E20</color>
+    <color name="primary_light">#4CAF50</color>
+    
+    <!-- Secondary Colors -->
+    <color name="secondary">#FF9800</color>
+    <color name="secondary_variant">#F57C00</color>
+    <color name="secondary_light">#FFB74D</color>
+    
+    <!-- Background Colors -->
+    <color name="background">#FAFAFA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F5F5F5</color>
+    
+    <!-- Text Colors -->
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="on_background">#212121</color>
+    <color name="on_surface">#212121</color>
+    <color name="on_surface_variant">#757575</color>
+    
+    <!-- Status Colors -->
+    <color name="income_color">#4CAF50</color>
+    <color name="expense_color">#F44336</color>
+    <color name="neutral_color">#9E9E9E</color>
+    
+    <!-- Card Colors -->
+    <color name="card_income">#E8F5E8</color>
+    <color name="card_expense">#FFEBEE</color>
+    <color name="card_balance">#E3F2FD</color>
+    
+    <!-- Chart Colors -->
+    <color name="chart_color_1">#2E7D32</color>
+    <color name="chart_color_2">#FF9800</color>
+    <color name="chart_color_3">#2196F3</color>
+    <color name="chart_color_4">#9C27B0</color>
+    <color name="chart_color_5">#F44336</color>
+    <color name="chart_color_6">#FF5722</color>
+    <color name="chart_color_7">#795548</color>
+    <color name="chart_color_8">#607D8B</color>
+    
+    <!-- Other Colors -->
+    <color name="divider">#E0E0E0</color>
+    <color name="error">#F44336</color>
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FF9800</color>
+    <color name="info">#2196F3</color>
+    
+    <!-- Dark Theme Colors -->
+    <color name="dark_background">#121212</color>
+    <color name="dark_surface">#1E1E1E</color>
+    <color name="dark_surface_variant">#2C2C2C</color>
+    <color name="dark_on_background">#FFFFFF</color>
+    <color name="dark_on_surface">#FFFFFF</color>
+    
+    <!-- Transparent Colors -->
+    <color name="transparent">#00000000</color>
+    <color name="semi_transparent">#80000000</color>
+</resources>
